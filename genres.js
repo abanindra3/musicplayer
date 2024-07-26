@@ -26,7 +26,7 @@ for (var i = 0; i < 9; i++) {
 
   // Create the image element
   var image = document.createElement('img');
-  image.src = 'genresImages/pop.jpg';
+  image.src = 'pop.jpg';
   image.classList.add('card-img');
   image.alt = '...';
 
