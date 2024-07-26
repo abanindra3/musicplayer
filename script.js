@@ -38,7 +38,7 @@ const options = {
 			buttonelem.id = `playButton${i+1}`;
 			imageDiv.appendChild(buttonelem);
 			var imag = document.createElement('img');
-			imag.src = 'Images/icons8-play-48 (2).png';
+			imag.src = 'icons8-play-48 (2).png';
 			imag.alt = 'play';
 			buttonelem.appendChild(imag);
 
@@ -147,7 +147,7 @@ const options = {
 		var prevButton = document.createElement('button');
 		prevButton.classList.add('prevButton');
 		var prevButtonImage = document.createElement('img');
-		prevButtonImage.setAttribute('src', 'Images/icons8-arrow-32.png');
+		prevButtonImage.setAttribute('src', 'icons8-arrow-32.png');
 		prevButtonImage.setAttribute('alt', 'Prev');
 		prevButtonImage.setAttribute('id', 'prev');
 		prevButton.appendChild(prevButtonImage);
@@ -157,7 +157,7 @@ const options = {
 		var playButton = document.createElement('button');
 		playButton.classList.add('playButton');
 		var playButtonImage = document.createElement('img');
-		playButtonImage.setAttribute('src', 'Images/icons8-play-48 (2).png');
+		playButtonImage.setAttribute('src', 'icons8-play-48 (2).png');
 		playButtonImage.setAttribute('alt', 'Play');
 		playButtonImage.setAttribute('id', 'play');
 		playButton.appendChild(playButtonImage);
@@ -167,7 +167,7 @@ const options = {
 		var nextButton = document.createElement('button');
 		nextButton.classList.add('nextButton');
 		var nextButtonImage = document.createElement('img');
-		nextButtonImage.setAttribute('src', 'Images/icons8-next-30.png');
+		nextButtonImage.setAttribute('src', 'icons8-next-30.png');
 		nextButtonImage.setAttribute('alt', 'Next');
 		nextButtonImage.setAttribute('id', 'next');
 		nextButton.appendChild(nextButtonImage);
